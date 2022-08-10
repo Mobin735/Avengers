@@ -1,0 +1,7 @@
+.heros-section {
+    background: rgba(0, 0, 0, 0.751) url("../img/databg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    height: 95rem;
+}
