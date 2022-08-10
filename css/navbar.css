@@ -2,20 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Monoton&family=Readex+Pro:wght@200&family=Righteous&display=swap');
 
 .navbar {
-    -webkit-perspective:1000;
-    -webkit-backface-visibility:hidden;
     -webkit-tap-highlight-color: transparent;
     user-select: none;
     position: fixed;
     top: 0;
     width: 100%;
+    padding: 20px 0;
+    transition: all 0.3s ease-in;
 }
 
 .navbar-ul {
     z-index: 10;
     display: flex;
-    padding: 20px;
-    transition: all 0.3s ease-in;
 }
 
 .left-navbar {
@@ -124,9 +122,5 @@
 
 .scroll{
     background-color: #131212;
+    padding: 9px 0;
 }
-
-/* .scroll .navbar-ul{
-    padding-top: 9px;
-    padding-bottom: 9px;
-} */
