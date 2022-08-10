@@ -121,7 +121,7 @@
 }
 
 .scroll{
-    backdrop-filter: blur(7px);
+    background-color: #131212;
 }
 
 .scroll .navbar-ul{
